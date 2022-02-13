@@ -8,8 +8,8 @@ function getDataFromGit(response, userUrl) {
 
     let userUrlLen = userUrl.split('/').filter(ele => ele !== '').length;
 
-    if(userUrlLen>4){
-        const errResponse = {error: '400: bad request', message: 'extra inputs found'}
+    if(userUrlLen>4 || userUrlLen<1){
+        const errResponse = {error: '400: bad request', message: 'Please check url'}
         response.statusCode = 400;
         response.write(JSON.stringify(errResponse));
         response.end();
@@ -78,7 +78,7 @@ server.on('request', (request, response) => {
     getDataFromGit(response, request.url);
 });
 
-server.listen(port, hostname, () => {
+server.listen(port, () => {
     console.log('server stared');
 });
 
