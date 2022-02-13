@@ -2,15 +2,11 @@
   "name": "webscrapping",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.10",
-    "nodemon": "^2.0.15"
-  }
+  "license": "ISC"
 }
