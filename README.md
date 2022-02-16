@@ -4,4 +4,4 @@
 - 2.create a json file eg:data.json.
 - 3.now use https://fake-spi.herokuapp.com/[user name]/[repo name]/[branch name]/[file name].
 - 4.donot use any trailing spaces.
-- 5. for fake users data use https://fake-spi.herokuapp.com/saishiva1/json/main/users.json
+- 5. for fake users data use https://fake-spi.herokuapp.com/saishiva1/jsondata/main/users.json
