@@ -3,4 +3,5 @@
 - 1.create a public repo in your github account.
 - 2.create a json file eg:data.json.
 - 3.now use https://fake-spi.herokuapp.com/[user name]/[repo name]/[branch name]/[file name].
-- donot use any trailing spaces.
+- 4.donot use any trailing spaces.
+- 5. for fake users data use https://fake-spi.herokuapp.com/saishiva1/json/main/users.json
